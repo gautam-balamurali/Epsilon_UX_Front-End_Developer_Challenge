@@ -1,0 +1,56 @@
+.table-container {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  width: 600px;
+  margin: 50px auto;
+}
+
+.mat-table {
+  font-family: "Source Sans Pro", sans-serif;
+  overflow: auto;
+  height: 600px;
+  width: 600px;
+}
+
+.mat-row {
+  height: auto;
+}
+
+.mat-cell {
+  color: #666666;
+  font-size: 14px;
+  padding: 14px 24px 13px 24px;
+}
+
+.mat-header-cell {
+  color: #666666;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #f7f7f7;
+  padding: 14px 24px 13px 24px !important;
+}
+
+.mat-row:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+
+.mat-row:hover {
+  background-color: #f0f6ff;
+}
+
+::ng-deep .mat-sort-header-arrow {
+  color: #0063e6;
+}
+
+::ng-deep .mat-sort-header-arrow:hover {
+  color: #f0f6ff !important;
+}
+
+.mat-column-name {
+  flex: 0 0 38%;
+}
+
+.mat-column-price {
+  flex: 0 0 27%;
+}
