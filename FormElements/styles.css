@@ -1,0 +1,46 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.form {
+  margin: 40px;
+}
+
+::-webkit-input-placeholder {
+  font-size: 14px;
+  color: #737373;
+}
+
+::placeholder {
+  font-size: 14px;
+  color: #737373;
+}
+
+.form label {
+  font-size: 14px;
+  color: #1a1a1a;
+}
+
+.form input {
+  margin-bottom: 24px;
+  font-size: 14px;
+  padding: 5px;
+  width: 300px;
+}
+
+.btn {
+  font-size: 14px;
+  margin-top: 8px;
+  height: 36px;
+  border: 1px solid #0063e6;
+  width: 315px;
+  border-radius: 2px;
+  color: #ffffff;
+  background-color: #0063e6;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #f0f6ff;
+  color: #0063e6;
+}
