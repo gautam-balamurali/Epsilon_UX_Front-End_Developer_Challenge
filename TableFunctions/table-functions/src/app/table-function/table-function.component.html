@@ -1,0 +1,31 @@
+<div class="table-container mat-elevation-z8">
+  <mat-table #table [dataSource]="dataSource" matSort>
+    <!-- Product Name Definition -->
+    <ng-container matColumnDef="name">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>
+        Product Name
+      </mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{ row.name }} </mat-cell>
+    </ng-container>
+
+    <!-- Price Definition -->
+    <ng-container matColumnDef="price">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>
+        Price
+      </mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{ row.price }} </mat-cell>
+    </ng-container>
+
+    <!-- Category Definition -->
+    <ng-container matColumnDef="category">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>
+        Category
+      </mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{ row.category }} </mat-cell>
+    </ng-container>
+
+    <!-- Header and Row Declarations -->
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns"></mat-row>
+  </mat-table>
+</div>
