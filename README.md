@@ -5,6 +5,6 @@ Part-1 Card Component is done using HTML and CSS.
 
 Part-2 Form Elements is done using HTML and CSS.
 
-Part-3 Table Fucntions is done using Angular.
+Part-3 Table Functions is done using Angular.
 
-Copyright © 2018 Gautam Balamurali
+Copyright © 2022 Gautam Balamurali
